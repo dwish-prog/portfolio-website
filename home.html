@@ -3,9 +3,133 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Dave Wishart Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pliant:ital,wght@0,100..900;1,100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet" />
         <link rel="stylesheet" href="reset.css" />
         <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/7c3041fd46.js"
+            crossorigin="anonymous"></script>
     </head>
-    <body></body>
+    <body>
+        <header>
+            <p>Dave Wishart</p>
+            <nav>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <a href="./music.html">Music</a>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="./services.html">Services</a>
+                            <a href="./schedule.html">Schedule</a>
+                            <a href="./media.html">Media</a>
+                            <a href="./bio.html">Biography</a>
+                        </div>
+                    </div>
+                    <li><a href="latest.html">Latest</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <a href="contact.html">Contact</a>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="./contact.html/#impressum">Legal notice</a>
+                        </div>
+                        <li></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Welcome</h1>
+                <p>
+                    <strong>Hi, I'm Dave.</strong><br />Based in Berlin,
+                    Germany, I've been working as a pianist, conductor, and
+                    vocal coach over the past decade. Recently, I have been
+                    building up skills in data analysis and software
+                    development. Whether I'm sitting at the piano keyboard or
+                    the computer keyboard, my goal is to do projects which help
+                    make the world a better place.
+                </p>
+            </section>
+            <section>
+                <figure>
+                    <img
+                        src="./assets/media/alexander-sinn-07bxCZgKY-k-unsplash.jpg"
+                        alt="a computer keyboard"
+                        attributionsrc="https://unsplash.com/photos/black-computer-keyboard-07bxCZgKY-k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" />
+                    <figcaption>
+                        <a href="./portfolio.html"
+                            >Software Development & Data Analysis</a
+                        >
+                    </figcaption>
+                    <figcaption class="attribution">
+                        Photo:
+                        <a
+                            href="https://unsplash.com/photos/black-computer-keyboard-07bxCZgKY-k"
+                            >Alexander Sinn on Unsplash</a
+                        >
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img
+                        src="./assets/media/geert-pieters-8QrPJ3Kfie4-unsplash.jpg"
+                        alt="a piano keyboard"
+                        attributionsrc="https://unsplash.com/photos/a-close-up-of-a-piano-with-a-person-in-the-background-8QrPJ3Kfie4" />
+                    <figcaption>
+                        <a href="./music.html">Piano, Composing, Conducting</a>
+                    </figcaption>
+                    <figcaption class="attribution">
+                        Photo:
+                        <a
+                            href="https://unsplash.com/photos/a-close-up-of-a-piano-with-a-person-in-the-background-8QrPJ3Kfie4"
+                            >Geert Pieters on Unsplash</a
+                        >
+                    </figcaption>
+                </figure>
+            </section>
+        </main>
+        <footer>
+            <h2><a href="./contact.html">Contact</a></h2>
+            <p><a href="./contact.html/#impressum">Legal notice</a></p>
+            <!-- add social links -->
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/davidpeterwishart"
+                        ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://github.com/dwish-prog"
+                        ><i class="fa-brands fa-github"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://discordapp.com/users/692093541043798046"
+                        ><i class="fa-brands fa-discord"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/dvdwish/?hl=en"
+                        ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/david.wishart1"
+                        ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                </li>
+            </ul>
+            <p>© 2026. All rights reserved.</p>
+        </footer>
+    </body>
 </html>

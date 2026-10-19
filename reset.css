@@ -40,7 +40,7 @@ html {
     --color-accent: #2563eb;
 
     /* 4c. Typography scale */
-    --font-sans: system-ui, -apple-system, sans-serif;
+    --font-sans: 'Valley Sans', system-ui, -apple-system, sans-serif;
     --text-base: 1rem;
     --text-xl: 1.5rem;
 }
@@ -50,6 +50,7 @@ body {
     min-height: 100vh;
     line-height: 1.5;
     font-family:
+        'Valley Sans',
         system-ui,
         -apple-system,
         BlinkMacSystemFont,
