@@ -33,11 +33,11 @@ html {
     --space-lg: 2.5rem; /* 40px */
 
     /* 4b. Palette */
-    --color-surface: #ffffff;
-    --color-canvas: #f8fafc;
-    --color-text-main: #0f172a;
+    --color-surface: #140f12;
+    --color-canvas: #140f12;
+    --color-text-main: #a4c0ba;
     --color-text-muted: #64748b;
-    --color-accent: #2563eb;
+    --color-accent: #638294;
 
     /* 4c. Typography scale */
     --font-sans: 'Valley Sans', system-ui, -apple-system, sans-serif;

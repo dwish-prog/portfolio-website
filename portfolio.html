@@ -3,7 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dave Wishart Home</title>
+        <meta name="author" content="Dave Wishart" />
+        <meta
+            name="description"
+            content="The personal website of Dave Wishart. View portfolio projects, learn about events & freelance services, and get in touch." />
+        <title>Dave Wishart: Portfolio</title>
+        <link
+            rel="icon"
+            href="assets/square-headshot.ico"
+            type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -14,42 +22,43 @@
         <script
             src="https://kit.fontawesome.com/7c3041fd46.js"
             crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <header>
-            <p>Dave Wishart</p>
-            <nav>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <a href="./music.html">Music</a>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./services.html">Services</a>
-                            <a href="./schedule.html">Schedule</a>
-                            <a href="./media.html">Media</a>
-                            <a href="./bio.html">Biography</a>
-                        </div>
-                    </div>
-                    <li><a href="latest.html">Latest</a></li>
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <a href="contact.html">Contact</a>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./contact.html/#impressum">Legal notice</a>
-                        </div>
-                        <li></li>
-                    </div>
-                </ul>
-            </nav>
+            <h2 class="subtitle">Dave Wishart</h2>
+            <h1>Technical Portfolio</h1>
         </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Portfolio</li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="music.html">Music</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="bio.html">Biography</a></li>
+                    </ul>
+                </div>
+                <li><a href="latest.html">Latest</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="contact.html">Contact</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html/#impressum">Legal notice</a>
+                    </div>
+                    <li></li>
+                </div>
+            </ul>
+        </nav>
         <main>
-            <h1>Tech Projects</h1>
             <article>
                 <h2>About Me</h2>
                 <p>
@@ -57,9 +66,8 @@
                     bring about positive change, I have been studying data
                     analysis, software development, and computer science in
                     general. Here is a selection of projects which demonstrate
-                    some of the skills I have been developing. You can also view
-                    my resume
-                    <a href="./assets/David Wishart Resume.pdf">here</a>.
+                    some of the skills I have been developing. You can also 
+                    <a href="./assets/David Wishart Resume.pdf">download my resume (PDF, 129KB)</a>.
                 </p>
             </article>
             <article>
@@ -109,7 +117,6 @@
         <footer>
             <h2><a href="./contact.html">Contact</a></h2>
             <p><a href="./contact.html/#impressum">Legal notice</a></p>
-            <!-- add social links -->
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/davidpeterwishart"

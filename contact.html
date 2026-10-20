@@ -3,7 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dave Wishart Home</title>
+        <meta name="author" content="Dave Wishart" />
+        <meta
+            name="description"
+            content="The personal website of Dave Wishart. View portfolio projects, learn about events & freelance services, and get in touch." />
+        <title>Dave Wishart: Home</title>
+        <link
+            rel="icon"
+            href="assets/square-headshot.ico"
+            type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -14,42 +22,43 @@
         <script
             src="https://kit.fontawesome.com/7c3041fd46.js"
             crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <header>
-            <p>Dave Wishart</p>
-            <nav>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <a href="./music.html">Music</a>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./services.html">Services</a>
-                            <a href="./schedule.html">Schedule</a>
-                            <a href="./media.html">Media</a>
-                            <a href="./bio.html">Biography</a>
-                        </div>
-                    </div>
-                    <li><a href="latest.html">Latest</a></li>
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <a href="#">Contact</a>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="#impressum">Legal notice</a>
-                        </div>
-                        <li></li>
-                    </div>
-                </ul>
-            </nav>
+            <h2 class="subtitle">Dave Wishart</h2>
+            <h1>Get in Touch</h1>
         </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="music.html">Music</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="bio.html">Biography</a></li>
+                    </ul>
+                </div>
+                <li><a href="latest.html">Latest</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        Contact
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html/#impressum">Legal notice</a>
+                    </div>
+                    <li></li>
+                </div>
+            </ul>
+        </nav>
         <main>
-            <h1>Contact</h1>
             <h2>Get in touch with Dave</h2>
             <p>Page under construction...</p>
             <p>
@@ -62,25 +71,35 @@
                 <h3>Information according to § 5 TMG</h3>
 
                 <address>
-                    David Wishart<br />
-                    Freelance musician & music teacher<br />
-                    Pufendorfstraße 7A<br />
-                    10249 Berlin<br />
-                    Germany<br />
-                    Email:
-                    <a href="mailto:david.wishart2@gmail.com"
-                        >david.wishart2@gmail.com</a
-                    ><br />
-                    Phone: +49 (0)1768 245 7416
+                    <p>
+                        David Wishart<br />
+                        Freelance musician & music teacher<br />
+                        Pufendorfstraße 7A<br />
+                        10249 Berlin<br />
+                        Germany<br />
+                    </p>
+
+                    <ul>
+                        <li>
+                            Email:
+                            <a href="mailto:david.wishart2@gmail.com"
+                                >david.wishart2@gmail.com</a
+                            ><br />
+                        </li>
+                        <li>Phone: +49 (0)1768 245 7416</li>
+                    </ul>
                 </address>
 
                 <h3>
                     Responsible for the content according to § 55 para. 2 RStV:
                 </h3>
                 <address>
-                    David Wishart<br />
-                    Pufendorfstraße 7A<br />
-                    10249 Berlin
+                    <p>
+                        David Wishart<br />
+                        Pufendorfstraße 7A<br />
+                        10249 Berlin<br />
+                        Germany
+                    </p>
                 </address>
 
                 <h3>Disclaimer:</h3>
@@ -286,7 +305,6 @@
         <footer>
             <h2><a href="./contact.html">Contact</a></h2>
             <p><a href="./contact.html/#impressum">Legal notice</a></p>
-            <!-- add social links -->
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/davidpeterwishart"

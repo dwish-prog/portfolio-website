@@ -3,7 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Dave Wishart Home</title>
+        <meta name="author" content="Dave Wishart" />
+        <meta
+            name="description"
+            content="The personal website of Dave Wishart. View portfolio projects, learn about events & freelance services, and get in touch." />
+        <title>Dave Wishart: Services</title>
+        <link
+            rel="icon"
+            href="assets/square-headshot.ico"
+            type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -14,42 +22,43 @@
         <script
             src="https://kit.fontawesome.com/7c3041fd46.js"
             crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
     </head>
     <body>
         <header>
-            <p>Dave Wishart</p>
-            <nav>
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <a href="./music.html">Music</a>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./services.html">Services</a>
-                            <a href="./schedule.html">Schedule</a>
-                            <a href="./media.html">Media</a>
-                            <a href="./bio.html">Biography</a>
-                        </div>
-                    </div>
-                    <li><a href="latest.html">Latest</a></li>
-                    <div class="dropdown">
-                        <button class="dropbtn">
-                            <a href="contact.html">Contact</a>
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="./contact.html/#impressum">Legal notice</a>
-                        </div>
-                        <li></li>
-                    </div>
-                </ul>
-            </nav>
-        </header>
-        <main>
+            <h2 class="subtitle">Dave Wishart</h2>
             <h1>Music Services</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="music.html">Music</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <ul class="dropdown-content">
+                        <li>Services</li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="bio.html">Biography</a></li>
+                    </ul>
+                </div>
+                <li><a href="latest.html">Latest</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <a href="contact.html">Contact</a>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="contact.html/#impressum">Legal notice</a>
+                    </div>
+                    <li></li>
+                </div>
+            </ul>
+        </nav>
+        <main>
             <article>
                 <h2>Coaching & Tutition</h2>
                 <section>
@@ -72,7 +81,7 @@
                     <figure>
                         <img
                             src="./assets/media/jason-rosewell-ASKeuOZqhYU-unsplash.jpg" />
-                        <figcaption>
+                        <figcaption class="attribution">
                             Photo by
                             <a
                                 href="https://unsplash.com/@jasonrosewell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
@@ -100,7 +109,7 @@
                     <figure>
                         <img
                             src="./assets/media/barnabas-piper-58VOzWsH8rA-unsplash.jpg" />
-                        <figcaption>
+                        <figcaption class="attribution">
                             Photo by
                             <a
                                 href="https://unsplash.com/@barnabaspiper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
@@ -126,7 +135,7 @@
                     <figure>
                         <img
                             src="./assets/media/danielle-claude-belanger-ERfGVdG0C3M-unsplash.jpg" />
-                        <figcaption>
+                        <figcaption class="attribution">
                             Photo by
                             <a
                                 href="https://unsplash.com/@dcbelanger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
@@ -239,8 +248,20 @@
                 </p>
                 <section class="gallery">
                     <figure>
-                        <img src="./assets/media/samuel-sianipar-4TNd3hsW3PM-unsplash.jpg" />
-                        <figcaption>Photo by <a href="https://unsplash.com/@samthewam24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel  Sianipar</a> on <a href="https://unsplash.com/photos/group-of-person-playing-violin-4TNd3hsW3PM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
+                        <img
+                            src="./assets/media/samuel-sianipar-4TNd3hsW3PM-unsplash.jpg" />
+                        <figcaption class="attribution">
+                            Photo by
+                            <a
+                                href="https://unsplash.com/@samthewam24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >Samuel Sianipar</a
+                            >
+                            on
+                            <a
+                                href="https://unsplash.com/photos/group-of-person-playing-violin-4TNd3hsW3PM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >Unsplash</a
+                            >
+                        </figcaption>
                         <figcaption>
                             <h3>Arranging & Orchestration</h3>
                             <p>
@@ -260,8 +281,19 @@
                         </figcaption>
                     </figure>
                     <figure>
-                        <img src="./assets/media/europeana-cel0NcVbOFw-unsplash.jpg" />
-                        <figcaption>Photo by <a href="https://unsplash.com/@europeana">Europeana</a> on <a href="https://unsplash.com/photos/handwritten-musical-score-with-many-notes-cel0NcVbOFw">Unsplash</a></figcaption>
+                        <img
+                            src="./assets/media/europeana-cel0NcVbOFw-unsplash.jpg" />
+                        <figcaption class="attribution">
+                            Photo by
+                            <a href="https://unsplash.com/@europeana"
+                                >Europeana</a
+                            >
+                            on
+                            <a
+                                href="https://unsplash.com/photos/handwritten-musical-score-with-many-notes-cel0NcVbOFw"
+                                >Unsplash</a
+                            >
+                        </figcaption>
                         <figcaption>
                             <h3>Transcription</h3>
                             <p>
@@ -287,8 +319,20 @@
                         </figcaption>
                     </figure>
                     <figure>
-                        <img src="./assets/media/mike-castro-demaria-AQIB4qsI8wI-unsplash.jpg" />
-                        <figcaption>Photo by <a href="https://unsplash.com/@mike_castro_demaria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mike Castro Demaria</a> on <a href="https://unsplash.com/photos/black-and-white-electric-guitar-AQIB4qsI8wI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
+                        <img
+                            src="./assets/media/mike-castro-demaria-AQIB4qsI8wI-unsplash.jpg" />
+                        <figcaption class="attribution">
+                            Photo by
+                            <a
+                                href="https://unsplash.com/@mike_castro_demaria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >Mike Castro Demaria</a
+                            >
+                            on
+                            <a
+                                href="https://unsplash.com/photos/black-and-white-electric-guitar-AQIB4qsI8wI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >Unsplash</a
+                            >
+                        </figcaption>
                         <figcaption>
                             <h3>Editing</h3>
                             <p>
@@ -307,8 +351,14 @@
                         </figcaption>
                     </figure>
                     <figure>
-                        <img src="./assets/media/0073_david_lisa_promos_hi_073.jpg" />
-                        <figcaption>Photo by <a href="https://imurchan.co.uk/events-photography">Ingrid Mur</a></figcaption>
+                        <img
+                            src="./assets/media/0073_david_lisa_promos_hi_073.jpg" />
+                        <figcaption class="attribution">
+                            Photo by
+                            <a href="https://imurchan.co.uk/events-photography"
+                                >Ingrid Mur</a
+                            >
+                        </figcaption>
                         <figcaption>
                             <h3>Composing</h3>
                             <p>
@@ -317,9 +367,9 @@
                                 request. Whether you need a short piece, an
                                 arrangement with new material, or incidental
                                 music for performance, I'm happy to discuss
-                                ideas.</p>
-                                <button>Get in touch about composing</button>
+                                ideas.
                             </p>
+                            <button>Get in touch about composing</button>
                         </figcaption>
                     </figure>
                 </section>
@@ -328,7 +378,6 @@
         <footer>
             <h2><a href="./contact.html">Contact</a></h2>
             <p><a href="./contact.html/#impressum">Legal notice</a></p>
-            <!-- add social links -->
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/davidpeterwishart"
