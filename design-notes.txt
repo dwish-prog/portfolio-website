@@ -1,7 +1,0 @@
-Color Scheme
-
-{"Twilight Indigo":"213870",
-"Coffee Bean":"23020B",
-"Lavender Veil":"E0D2DE",
-"Dusk Blue":"3A5191",
-"Midnight Violet":"471C2E"}
