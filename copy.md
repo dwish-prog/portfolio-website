@@ -198,8 +198,6 @@ While most of my work involves arranging and transcription, I also write origina
 
 Explore my performances and compositions through videos and audio.
 
-## Latest (news and blog posts)
-
 ## Contact (form and impressum)
 
 Get in touch for collaborations.
