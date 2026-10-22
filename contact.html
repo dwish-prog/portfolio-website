@@ -47,12 +47,43 @@
             </nav>
         </header>
         <main>
-            <section>
-                <h1>Contact</h1>
-            </section>
-            <section>
-                <p>Get in touch for collaborations.</p>
-            </section>
+            <h1>Contact</h1>
+            <p>Get in touch for collaborations.</p>
+            <form action="./submit_page" method="get">
+                <p>
+                    <label for="name">Name (required): </label
+                    ><input type="text" name="name" id="name" required />
+                </p>
+                <p>
+                    <label for="subject">Subject: </label
+                    ><select name="subject" id="subject" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="data">Data Analysis</option>
+                        <option value="dev">Software Development</option>
+                        <option value="coaching">Coaching</option>
+                        <option value="piano">Piano Accompaniment</option>
+                        <option value="teaching">
+                            Piano or Musicianship Lessons
+                        </option>
+                        <option value="sheet music">
+                            Arranging & Transcription
+                        </option>
+                        <option value="composing">Composing</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="email">Email (required): </label
+                    ><input type="email" name="email" id="email" required />
+                </p>
+                <p>
+                    <label for="message">Your message: </label>
+                    <textarea id="message" name="message"></textarea>
+                </p>
+                <p>
+                    <button>Submit</button>
+                </p>
+            </form>
         </main>
         <footer>
             <p><a href="imprint.html">Imprint</a></p>
