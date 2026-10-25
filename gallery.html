@@ -32,142 +32,171 @@
     </head>
     <body>
         <header>
-            <h2>Dave Wishart</h2>
-            <button class="hamburger">≡</button>
-            <!--            <button class="lang" disabled>EN</button>
-            <a href="#"><button class="lang">DE</button></a>
--->
+            <nav>
+                <div class="nav-mobile">
+                    <h2>Dave Wishart</h2>
+                    <button class="hamburger">≡</button>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="page-link">Home</a></li>
+                    <li><a href="tech.html" class="page-link">Portfolio</a></li>
+                    <li class="dropbtn page-link">
+                        Music <i class="fa fa-caret-down"></i>
+                    </li>
+                    <li class="dropdown">
+                        <ul>
+                            <li>
+                                <a href="music.html " class="page-link"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a href="services.html" class="page-link"
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a href="projects.html" class="page-link"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="active">Gallery</li>
+                            <li>
+                                <a href="bio.html" class="page-link"
+                                    >Biography</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="page-link">Contact</a>
+                    </li>
+                    <li>
+                        Language: EN /
+                        <button><a href="#" class="lang">DE</a></button>
+                    </li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="tech.html">Portfolio</a>
-
-            <a href="music.html">Music</a>
-
-            <a href="services.html">Services</a>
-            <a href="projects.html">Projects</a>
-            <a href="#" class="active">Gallery</a>
-            <a href="bio.html">Biography</a>
-
-            <a href="contact.html">Contact</a>
-
-            <p class="lang">Language: English / <a href="#">Deutsch</a></p>
-        </nav>
         <main>
-            <section>
+            <article>
                 <h1>Media Gallery</h1>
-            </section>
-            <section>
                 <p>
                     Explore my performances and compositions through videos and
                     audio.
                 </p>
-            </section>
-            <section>
-                <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/fB5qelRqYWI?si=ymZrkhrBLAtx7DL4"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="
-                        accelerometer;
-                        autoplay;
-                        clipboard-write;
-                        encrypted-media;
-                        gyroscope;
-                        picture-in-picture;
-                        web-share;
-                    "
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen></iframe>
-                <iframe
-                    width="100%"
-                    height="300"
-                    scrolling="no"
-                    frameborder="no"
-                    allow="autoplay; encrypted-media"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A290576594&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                <div
-                    style="
-                        font-size: 10px;
-                        color: #cccccc;
-                        line-break: anywhere;
-                        word-break: normal;
-                        overflow: hidden;
-                        white-space: nowrap;
-                        text-overflow: ellipsis;
-                        font-family:
-                            Interstate,
-                            Lucida Grande,
-                            Lucida Sans Unicode,
-                            Lucida Sans,
-                            Garuda,
-                            Verdana,
-                            Tahoma,
-                            sans-serif;
-                        font-weight: 100;
-                    ">
-                    <a
-                        href="https://soundcloud.com/davidwishart"
-                        title="dwishart"
-                        target="_blank"
-                        style="color: #cccccc; text-decoration: none"
-                        >dwishart</a
-                    >
-                    ·
-                    <a
-                        href="https://soundcloud.com/davidwishart/stargazer-1"
-                        title="Stargazer"
-                        target="_blank"
-                        style="color: #cccccc; text-decoration: none"
-                        >Stargazer</a
-                    >
+            </article>
+            <div class="card-gallery">
+                <div class="card">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/fB5qelRqYWI?si=ymZrkhrBLAtx7DL4"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                            accelerometer;
+                            autoplay;
+                            clipboard-write;
+                            encrypted-media;
+                            gyroscope;
+                            picture-in-picture;
+                            web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
                 </div>
-                <iframe
-                    width="100%"
-                    height="300"
-                    scrolling="no"
-                    frameborder="no"
-                    allow="autoplay; encrypted-media"
-                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A91871070&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-                <div
-                    style="
-                        font-size: 10px;
-                        color: #cccccc;
-                        line-break: anywhere;
-                        word-break: normal;
-                        overflow: hidden;
-                        white-space: nowrap;
-                        text-overflow: ellipsis;
-                        font-family:
-                            Interstate,
-                            Lucida Grande,
-                            Lucida Sans Unicode,
-                            Lucida Sans,
-                            Garuda,
-                            Verdana,
-                            Tahoma,
-                            sans-serif;
-                        font-weight: 100;
-                    ">
-                    <a
-                        href="https://soundcloud.com/davidwishart"
-                        title="dwishart"
-                        target="_blank"
-                        style="color: #cccccc; text-decoration: none"
-                        >dwishart</a
-                    >
-                    ·
-                    <a
-                        href="https://soundcloud.com/davidwishart/song-for-carter"
-                        title="Song for Carter"
-                        target="_blank"
-                        style="color: #cccccc; text-decoration: none"
-                        >Song for Carter</a
-                    >
+                <div class="card">
+                    <iframe
+                        width="100%"
+                        height="300"
+                        scrolling="no"
+                        frameborder="no"
+                        allow="autoplay; encrypted-media"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A290576594&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    <div
+                        style="
+                            font-size: 10px;
+                            color: #cccccc;
+                            line-break: anywhere;
+                            word-break: normal;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            font-family:
+                                Interstate,
+                                Lucida Grande,
+                                Lucida Sans Unicode,
+                                Lucida Sans,
+                                Garuda,
+                                Verdana,
+                                Tahoma,
+                                sans-serif;
+                            font-weight: 100;
+                        ">
+                        <a
+                            href="https://soundcloud.com/davidwishart"
+                            title="dwishart"
+                            target="_blank"
+                            style="color: #cccccc; text-decoration: none"
+                            >dwishart</a
+                        >
+                        ·
+                        <a
+                            href="https://soundcloud.com/davidwishart/stargazer-1"
+                            title="Stargazer"
+                            target="_blank"
+                            style="color: #cccccc; text-decoration: none"
+                            >Stargazer</a
+                        >
+                    </div>
                 </div>
-            </section>
+                <div class="card">
+                    <iframe
+                        width="100%"
+                        height="300"
+                        scrolling="no"
+                        frameborder="no"
+                        allow="autoplay; encrypted-media"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A91871070&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    <div
+                        style="
+                            font-size: 10px;
+                            color: #cccccc;
+                            line-break: anywhere;
+                            word-break: normal;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            font-family:
+                                Interstate,
+                                Lucida Grande,
+                                Lucida Sans Unicode,
+                                Lucida Sans,
+                                Garuda,
+                                Verdana,
+                                Tahoma,
+                                sans-serif;
+                            font-weight: 100;
+                        ">
+                        <a
+                            href="https://soundcloud.com/davidwishart"
+                            title="dwishart"
+                            target="_blank"
+                            style="color: #cccccc; text-decoration: none"
+                            >dwishart</a
+                        >
+                        ·
+                        <a
+                            href="https://soundcloud.com/davidwishart/song-for-carter"
+                            title="Song for Carter"
+                            target="_blank"
+                            style="color: #cccccc; text-decoration: none"
+                            >Song for Carter</a
+                        >
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             <p><a href="imprint.html">Imprint</a></p>

@@ -2,21 +2,15 @@
 
 ## Colors
 
-bg-1: #274761, yale blue;
-bg-2: #1F394E, space blue;
-bg-3: #172A3A, deep space blue;
-bg-4: #101C27, ink black;
-bg-5: #060B0E, onyx;
-primary-light: #CF5B56, lobster pink;
-primary: #E88428, brown red;
-
-text-light: #DEEFFC, alice blue;
-text-dark: #ADBAC4, pale slate;
-accent-light: #D0C4AB, pale oak;
-accent: #B49159, camel;
-accent-dark: #B07F30, dark goldenrod;
-green: #7A7D34, olive;
-purple: #7D3474, royal plum;
+ink black: #02040f;
+deep space blue: #002642;
+yale blue: #003C66;
+dark amaranth: #8f0037;
+golden orange #e59500;
+almond silk: #D5C3C3;
+dust grey: #e5dada;
+parchment: #EEE7E7;
+snow: #F7F3F3;
 
 ## Typography
 

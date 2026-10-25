@@ -32,30 +32,55 @@
     </head>
     <body>
         <header>
-            <h2>Dave Wishart</h2>
-            <button class="hamburger">≡</button>
-            <!--            <button class="lang" disabled>EN</button>
-            <a href="#"><button class="lang">DE</button></a>
--->
+            <nav>
+                <div class="nav-mobile">
+                    <h2>Dave Wishart</h2>
+                    <button class="hamburger">≡</button>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="page-link">Home</a></li>
+                    <li><a href="tech.html" class="page-link">Portfolio</a></li>
+                    <li class="dropbtn page-link">
+                        Music <i class="fa fa-caret-down"></i>
+                    </li>
+                    <li class="dropdown">
+                        <ul>
+                            <li class="active">About</li>
+                            <li>
+                                <a href="services.html" class="page-link"
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a href="projects.html" class="page-link"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="page-link"
+                                    >Gallery</a
+                                >
+                            </li>
+                            <li>
+                                <a href="bio.html" class="page-link"
+                                    >Biography</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="page-link">Contact</a>
+                    </li>
+                    <li>
+                        Language: EN /
+                        <button><a href="#" class="lang">DE</a></button>
+                    </li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="tech.html">Portfolio</a>
-
-            <a href="#" class="active">Music</a>
-
-            <a href="services.html">Services</a>
-            <a href="projects.html">Projects</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="bio.html">Biography</a>
-
-            <a href="contact.html">Contact</a>
-
-            <p class="lang">Language: English / <a href="#">Deutsch</a></p>
-        </nav>
         <main>
-            <h1>Piano, Conducting, Composing, Coaching</h1>
             <article>
+                <h1>Piano, Conducting, Composing, Coaching</h1>
                 <h2>About Me</h2>
                 <p>
                     Dave Wishart is a Scottish pianist, conductor, and vocal
@@ -74,44 +99,43 @@
                     helping each performer find freedom and authenticity in
                     performance.
                 </p>
-                <figure>
-                    <img
-                        src="assets/images/0014_david_lisa_promos_hi_014.webp" />
-                    <figcaption class="attribution">
-                        Photo by
-                        <a href="https://imurchan.co.uk/about">Ingrid Mur</a>.
-                    </figcaption>
-                    <figcaption>
-                        <blockquote>
-                            Wishart moves effortlessly between piano and
-                            keyboard, leading and accompanying with sensitivity
-                            and stylistic assurance
-                        </blockquote>
-                        <p>Opernglas 4/2022 on <em>Sprich mit mir!</em></p>
-                    </figcaption>
-                </figure>
+                <aside>
+                    <figure>
+                        <img
+                            src="assets/images/0014_david_lisa_promos_hi_014.webp" />
+                        <figcaption class="attribution">
+                            Photo by
+                            <a href="https://imurchan.co.uk/about">Ingrid Mur</a
+                            >.
+                        </figcaption>
+                    </figure>
+                    <blockquote>
+                        "Wishart moves effortlessly between piano and keyboard,
+                        leading and accompanying with sensitivity and stylistic
+                        assurance"
+                    </blockquote>
+                    <p>Opernglas 4/2022 on <em>Sprich mit mir!</em></p>
+                </aside>
             </article>
             <section class="card-gallery">
-                <ul>
-                    <li>
-                        Interested in working with Dave? Check out the
-                        <a href="services.html">services page</a> for details
-                        about accompanying, teaching/coaching, and arranging.
-                    </li>
-                    <li>
-                        Want to experience samples of Dave's work? Have a look
-                        at the <a href="gallery.html">media gallery</a> for
-                        recordings and photos.
-                    </li>
-                    <li>
-                        See details of recent & upcoming events on the
-                        <a href="projects.html">projects page</a>.
-                    </li>
-                    <li>
-                        Learn more about Dave's background by reading his
-                        <a href="bio.html">biography</a>.
-                    </li>
-                </ul>
+                <div class="card">
+                    Interested in working with Dave? Check out the
+                    <a href="services.html">services page</a> for details about
+                    accompanying, teaching/coaching, and arranging.
+                </div>
+                <div class="card">
+                    Want to experience samples of Dave's work? Have a look at
+                    the <a href="gallery.html">media gallery</a> for recordings
+                    and photos.
+                </div>
+                <div class="card">
+                    See details of recent & upcoming events on the
+                    <a href="projects.html">projects page</a>.
+                </div>
+                <div class="card">
+                    Learn more about Dave's background by reading his
+                    <a href="bio.html">biography</a>.
+                </div>
             </section>
             <article>
                 <h2>Artistic Approach</h2>

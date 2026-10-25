@@ -32,90 +32,128 @@
     </head>
     <body>
         <header>
-            <h2>Dave Wishart</h2>
-            <button class="hamburger">≡</button>
-            <!--            <button class="lang" disabled>EN</button>
-            <a href="#"><button class="lang">DE</button></a>
--->
-        </header>
-        <nav class="mobile">
-            <ul>
-                <li class="active">Home</li>
-                <li><a href="tech.html">Portfolio</a></li>
-                <li><a href="music.html">Music</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="bio.html">Biography</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="lang">
-                    Language: English / <a href="#">Deutsch</a>
-                </li>
-            </ul>
-        </nav>
-        <main>
             <div class="hero">
                 <p class="attribution">
                     Photo by
                     <a href="https://www.vanheesen.de/">Peter van Heesen</a>
                 </p>
             </div>
-            <h1>Hi, I'm Dave</h1>
-            <p>
-                Based in Berlin, Germany, I've been working as a pianist,
-                conductor, and vocal coach over the past decade. Recently, I
-                have been building up skills in data analysis and software
-                development. Whether I'm sitting at the piano keyboard or the
-                computer keyboard, my goal is to do projects which help make the
-                world a better place.
-            </p>
+            <nav>
+                <div class="nav-mobile">
+                    <h2>Dave Wishart</h2>
+                    <button class="hamburger">≡</button>
+                </div>
+                <ul>
+                    <li class="active">Home</li>
+                    <li><a href="tech.html" class="page-link">Portfolio</a></li>
+                    <li class="dropbtn page-link">
+                        Music <i class="fa fa-caret-down"></i>
+                    </li>
+                    <li class="dropdown">
+                        <ul>
+                            <li>
+                                <a href="music.html " class="page-link"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a href="services.html" class="page-link"
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a href="projects.html" class="page-link"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="page-link"
+                                    >Gallery</a
+                                >
+                            </li>
+                            <li>
+                                <a href="bio.html" class="page-link"
+                                    >Biography</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="page-link">Contact</a>
+                    </li>
+                    <li>
+                        Language: EN /
+                        <button><a href="#" class="lang">DE</a></button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h1>Hi, I'm Dave</h1>
+                <p>
+                    Based in Berlin, Germany, I've been working as a pianist,
+                    conductor, and vocal coach over the past decade. Recently, I
+                    have been building up skills in data analysis and software
+                    development. Whether I'm sitting at the piano keyboard or
+                    the computer keyboard, my goal is to do projects which help
+                    make the world a better place.
+                </p>
+            </article>
             <div class="card-gallery">
-                <figure class="card">
-                    <img
-                        src="assets/images/alexander-sinn-07bxCZgKY-k-unsplash.webp"
-                        alt="a close-up photo of a black computer keyboard" />
-                    <figcaption class="attribution">
-                        Photo by
-                        <a href="https://unsplash.com/@swimstaralex"
-                            >Alexander Sinn</a
-                        >
-                        on
-                        <a
-                            href="https://unsplash.com/photos/black-computer-keyboard-07bxCZgKY-k"
-                            >Unsplash</a
-                        >
-                    </figcaption>
-                    <figcaption>
+                <div class="card">
+                    <figure>
+                        <img
+                            src="assets/images/alexander-sinn-07bxCZgKY-k-unsplash.webp"
+                            alt="a close-up photo of a black computer keyboard" />
+                        <figcaption class="attribution">
+                            Photo by
+                            <a href="https://unsplash.com/@swimstaralex"
+                                >Alexander Sinn</a
+                            >
+                            on
+                            <a
+                                href="https://unsplash.com/photos/black-computer-keyboard-07bxCZgKY-k"
+                                >Unsplash</a
+                            >
+                        </figcaption>
+                    </figure>
+                    <p>
                         <a href="tech.html">View my portfolio</a> of tech
                         projects
-                    </figcaption>
-                </figure>
-                <figure class="card">
-                    <img
-                        src="assets/images/geert-pieters-8QrPJ3Kfie4-unsplash.webp"
-                        alt="an artistically blurred and tinted photo of a piano keyboard" />
-                    <figcaption class="attribution">
-                        Photo by
-                        <a href="https://unsplash.com/@shotsbywolf"
-                            >Geert Pieters</a
-                        >
-                        on
-                        <a
-                            href="https://unsplash.com/photos/a-close-up-of-a-piano-with-a-person-in-the-background-8QrPJ3Kfie4"
-                            >Unsplash</a
-                        >
-                    </figcaption>
-                    <figcaption>
+                    </p>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img
+                            src="assets/images/geert-pieters-8QrPJ3Kfie4-unsplash.webp"
+                            alt="an artistically blurred and tinted photo of a piano keyboard" />
+                        <figcaption class="attribution">
+                            Photo by
+                            <a href="https://unsplash.com/@shotsbywolf"
+                                >Geert Pieters</a
+                            >
+                            on
+                            <a
+                                href="https://unsplash.com/photos/a-close-up-of-a-piano-with-a-person-in-the-background-8QrPJ3Kfie4"
+                                >Unsplash</a
+                            >
+                        </figcaption>
+                    </figure>
+                    <p>
                         <a href="music.html">Learn more</a> about my work as a
                         musician
-                    </figcaption>
-                </figure>
+                    </p>
+                </div>
             </div>
-            <h2>Interested in working with Dave?</h2>
-            <p>
-                <a href="contact.html">Get in touch</a><br />
-                for more details and to discuss possible collaborations.
-            </p>
+            <article>
+                <h2>Interested in working with Dave?</h2>
+                <p>
+                    <a href="contact.html">Get in touch</a>
+                    for more details and to discuss possible collaborations.
+                </p>
+            </article>
         </main>
         <footer>
             <p><a href="imprint.html">Imprint</a></p>

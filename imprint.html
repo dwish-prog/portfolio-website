@@ -32,30 +32,59 @@
     </head>
     <body>
         <header>
-            <h2>Dave Wishart</h2>
-            <button class="hamburger">≡</button>
-            <!--            <button class="lang" disabled>EN</button>
-            <a href="#"><button class="lang">DE</button></a>
--->
+            <nav>
+                <div class="nav-mobile">
+                    <h2>Dave Wishart</h2>
+                    <button class="hamburger">≡</button>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="page-link">Home</a></li>
+                    <li><a href="tech.html" class="page-link">Portfolio</a></li>
+                    <li class="dropbtn page-link">
+                        Music <i class="fa fa-caret-down"></i>
+                    </li>
+                    <li class="dropdown">
+                        <ul>
+                            <li>
+                                <a href="music.html " class="page-link"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a href="services.html" class="page-link"
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a href="projects.html" class="page-link"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="page-link"
+                                    >Gallery</a
+                                >
+                            </li>
+                            <li>
+                                <a href="bio.html" class="page-link"
+                                    >Biography</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="page-link">Contact</a>
+                    </li>
+                    <li>
+                        Language: EN /
+                        <button><a href="#" class="lang">DE</a></button>
+                    </li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="tech.html">Portfolio</a>
-
-            <a href="music.html">Music</a>
-
-            <a href="services.html">Services</a>
-            <a href="projects.html">Projects</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="bio.html">Biography</a>
-
-            <a href="contact.html">Contact</a>
-
-            <p class="lang">Language: English / <a href="#">Deutsch</a></p>
-        </nav>
         <main>
-            <h1>Imprint</h1>
             <article>
+                <h1>Imprint</h1>
                 <h2>Legal notice</h2>
 
                 <p>Information according to § 5 TMG</p>
@@ -88,7 +117,7 @@
 
                 <p>© 2026 Dave Wishart. All rights reserved.</p>
             </article>
-            <article>
+            <article class="article-sect-alt">
                 <h2>Privacy Policy</h2>
                 <ol>
                     <li>
