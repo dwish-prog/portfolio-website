@@ -32,46 +32,45 @@
     </head>
     <body>
         <header>
-            <div class="logo"><h2>Dave Wishart</h2></div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li><a href="tech.html">Portfolio</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="bio.html">Biography</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <h2>Dave Wishart</h2>
+            <button class="hamburger">≡</button>
+            <!--            <button class="lang" disabled>EN</button>
+            <a href="#"><button class="lang">DE</button></a>
+-->
         </header>
+        <nav class="mobile">
+            <ul>
+                <li class="active">Home</li>
+                <li><a href="tech.html">Portfolio</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="bio.html">Biography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="lang">
+                    Language: English / <a href="#">Deutsch</a>
+                </li>
+            </ul>
+        </nav>
         <main>
-            <section>
-                <h1>Welcome</h1>
-                <figure>
-                    <img
-                        src="assets/images/dw-headshot.webp"
-                        alt="large portrait photo of Dave Wishart" />
-                    <figcaption class="attribution">
-                        Photo by
-                        <a href="https://www.vanheesen.de/">Peter van Heesen</a>
-                    </figcaption>
-                </figure>
-            </section>
-            <article>
-                <h2>Hi, I'm Dave</h2>
-                <p>
-                    Based in Berlin, Germany, I've been working as a pianist,
-                    conductor, and vocal coach over the past decade. Recently, I
-                    have been building up skills in data analysis and software
-                    development. Whether I'm sitting at the piano keyboard or
-                    the computer keyboard, my goal is to do projects which help
-                    make the world a better place.
+            <div class="hero">
+                <p class="attribution">
+                    Photo by
+                    <a href="https://www.vanheesen.de/">Peter van Heesen</a>
                 </p>
-            </article>
-            <section>
-                <figure>
+            </div>
+            <h1>Hi, I'm Dave</h1>
+            <p>
+                Based in Berlin, Germany, I've been working as a pianist,
+                conductor, and vocal coach over the past decade. Recently, I
+                have been building up skills in data analysis and software
+                development. Whether I'm sitting at the piano keyboard or the
+                computer keyboard, my goal is to do projects which help make the
+                world a better place.
+            </p>
+            <div class="card-gallery">
+                <figure class="card">
                     <img
                         src="assets/images/alexander-sinn-07bxCZgKY-k-unsplash.webp"
                         alt="a close-up photo of a black computer keyboard" />
@@ -91,7 +90,7 @@
                         projects
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="card">
                     <img
                         src="assets/images/geert-pieters-8QrPJ3Kfie4-unsplash.webp"
                         alt="an artistically blurred and tinted photo of a piano keyboard" />
@@ -111,40 +110,46 @@
                         musician
                     </figcaption>
                 </figure>
-            </section>
-            <section>
-                <h2>Interested in working with Dave?</h2>
-                <p>
-                    <a href="contact.html">Get in touch</a><br />
-                    for more details and to discuss possible collaborations.
-                </p>
-            </section>
+            </div>
+            <h2>Interested in working with Dave?</h2>
+            <p>
+                <a href="contact.html">Get in touch</a><br />
+                for more details and to discuss possible collaborations.
+            </p>
         </main>
         <footer>
             <p><a href="imprint.html">Imprint</a></p>
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/davidpeterwishart"
+                    <a
+                        href="https://www.linkedin.com/in/davidpeterwishart"
+                        target="_blank"
                         ><i class="fa-brands fa-linkedin"></i
                     ></a>
                 </li>
                 <li>
-                    <a href="https://github.com/dwish-prog"
+                    <a href="https://github.com/dwish-prog" target="_blank"
                         ><i class="fa-brands fa-github"></i
                     ></a>
                 </li>
                 <li>
-                    <a href="https://discordapp.com/users/692093541043798046"
+                    <a
+                        href="https://discordapp.com/users/692093541043798046"
+                        target="_blank"
                         ><i class="fa-brands fa-discord"></i
                     ></a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/dvdwish/?hl=en"
+                    <a
+                        href="https://www.instagram.com/dvdwish/?hl=en"
+                        target="_blank"
                         ><i class="fa-brands fa-instagram"></i
                     ></a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/david.wishart1"
+                    <a
+                        href="https://www.facebook.com/david.wishart1"
+                        target="_blank"
                         ><i class="fa-brands fa-facebook"></i
                     ></a>
                 </li>

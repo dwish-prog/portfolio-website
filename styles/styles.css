@@ -1,3 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 img {
     max-width: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+body,
+button,
+textarea {
+    font-family: nunito, Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'open sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* header & navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+header button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-family: nunito;
+    padding: 0.75rem 0.5rem;
+    background-color: inherit;
+    border: none;
+    border-left: 1px solid black;
+}
+
+header button:hover {
+    cursor: pointer;
+    background-color: #d0c4ab;
+}
+
+.hamburger {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 1rem;
+}
+
+.lang {
+    display: none;
+}
+
+header h2 {
+    font-size: 1.75rem;
+    padding: 1rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    border-top: 0.05rem solid black;
+    display: none;
+    text-align: center;
+    background-color: lightgray;
+}
+
+nav .active {
+    background-color: #d0c4ab;
+}
+
+nav p,
+nav a {
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.lang {
+    display: block;
+    background-color: #d0c4ab;
+}
+
+.lang a {
+    display: inline;
+    padding: 0;
+    width: inherit;
+}
+nav a:hover {
+    background-color: white;
+    color: blue;
+}
+
+nav .active:hover {
+    background-color: bisque;
+    color: inherit;
+}
+
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+footer li a {
+    color: black;
+}
+
+footer li {
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+/* Images & captions */
+
+.hero {
+    background-image: url('../assets/images/dw-headshot.webp');
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.hero .attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.attribution {
+    border-radius: 1rem 0 0 0;
+    padding: 0.2rem 0 0 0.5rem;
+    float: right;
+    height: 2rem;
+    position: relative;
+    bottom: 2.3rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.card-gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    display: grid;
+    padding: 1rem;
+}
+
+.card {
+    width: 90%;
+    background-color: white;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px grey;
 }

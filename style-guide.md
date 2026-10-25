@@ -8,7 +8,7 @@ bg-3: #172A3A, deep space blue;
 bg-4: #101C27, ink black;
 bg-5: #060B0E, onyx;
 primary-light: #CF5B56, lobster pink;
-primary: #99221E, brown red;
+primary: #E88428, brown red;
 
 text-light: #DEEFFC, alice blue;
 text-dark: #ADBAC4, pale slate;
