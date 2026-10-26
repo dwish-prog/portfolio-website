@@ -40,11 +40,11 @@
                 <ul>
                     <li><a href="index.html" class="page-link">Home</a></li>
                     <li><a href="tech.html" class="page-link">Portfolio</a></li>
-                    <li class="dropbtn page-link">
-                        Music <i class="fa fa-caret-down"></i>
-                    </li>
-                    <li class="dropdown">
-                        <ul>
+                    <li class="dropdown-container">
+                        <button class="dropbtn page-link">
+                            Music <i class="fa fa-caret-down"></i>
+                        </button>
+                        <ul class="dropdown">
                             <li class="active">About</li>
                             <li>
                                 <a href="services.html" class="page-link"
@@ -72,70 +72,82 @@
                         <a href="contact.html" class="page-link">Contact</a>
                     </li>
                     <li>
-                        Language: EN /
-                        <button><a href="#" class="lang">DE</a></button>
+                        <p>
+                            Language: EN /
+                            <button><a href="#" class="lang">DE</a></button>
+                        </p>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <article>
+            <article class="cols">
                 <h1>Piano, Conducting, Composing, Coaching</h1>
-                <h2>About Me</h2>
-                <p>
-                    Dave Wishart is a Scottish pianist, conductor, and vocal
-                    coach specialising in contemporary classical opera and
-                    experimental music. Since 2019 he has worked repeatedly as a
-                    guest at Deutsche Oper Berlin. From 2020-2025 he was a
-                    member of the ensemble at Theater Vorpommern in Stralsund.
-                    Over the past decade he has collaborated with a wide range
-                    of singers, composers, and ensembles throughout Europe.
-                </p>
-                <p>
-                    Dave is known for his calm, encouraging approach and his
-                    ability to make even the most rhythmically or harmonically
-                    complex scores feel approachable and expressive. His
-                    coaching focuses on clarity, musicality, and communication —
-                    helping each performer find freedom and authenticity in
-                    performance.
-                </p>
-                <aside>
-                    <figure>
-                        <img
-                            src="assets/images/0014_david_lisa_promos_hi_014.webp" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a href="https://imurchan.co.uk/about">Ingrid Mur</a
-                            >.
-                        </figcaption>
-                    </figure>
-                    <blockquote>
-                        "Wishart moves effortlessly between piano and keyboard,
-                        leading and accompanying with sensitivity and stylistic
-                        assurance"
-                    </blockquote>
-                    <p>Opernglas 4/2022 on <em>Sprich mit mir!</em></p>
-                </aside>
+                <div class="grid">
+                    <section>
+                        <h2>About Me</h2>
+                        <p>
+                            Dave Wishart is a Scottish pianist, conductor, and
+                            vocal coach specialising in contemporary classical
+                            opera and experimental music. Since 2019 he has
+                            worked repeatedly as a guest at Deutsche Oper
+                            Berlin. From 2020-2025 he was a member of the
+                            ensemble at Theater Vorpommern in Stralsund. Over
+                            the past decade he has collaborated with a wide
+                            range of singers, composers, and ensembles
+                            throughout Europe.
+                        </p>
+                        <p>
+                            Dave is known for his calm, encouraging approach and
+                            his ability to make even the most rhythmically or
+                            harmonically complex scores feel approachable and
+                            expressive. His coaching focuses on clarity,
+                            musicality, and communication — helping each
+                            performer find freedom and authenticity in
+                            performance.
+                        </p>
+                    </section>
+                    <aside>
+                        <figure>
+                            <img
+                                src="assets/images/0014_david_lisa_promos_hi_014.webp" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a href="https://imurchan.co.uk/about"
+                                    >Ingrid Mur</a
+                                >.
+                            </figcaption>
+                        </figure>
+                        <blockquote>
+                            "Wishart moves effortlessly between piano and
+                            keyboard, leading and accompanying with sensitivity
+                            and stylistic assurance"
+                        </blockquote>
+                        <p>Opernglas 4/2022 on <em>Sprich mit mir!</em></p>
+                    </aside>
+                </div>
             </article>
-            <section class="card-gallery">
-                <div class="card">
-                    Interested in working with Dave? Check out the
-                    <a href="services.html">services page</a> for details about
-                    accompanying, teaching/coaching, and arranging.
-                </div>
-                <div class="card">
-                    Want to experience samples of Dave's work? Have a look at
-                    the <a href="gallery.html">media gallery</a> for recordings
-                    and photos.
-                </div>
-                <div class="card">
-                    See details of recent & upcoming events on the
-                    <a href="projects.html">projects page</a>.
-                </div>
-                <div class="card">
-                    Learn more about Dave's background by reading his
-                    <a href="bio.html">biography</a>.
-                </div>
+            <section class="card-gallery-bg">
+                <section class="card-gallery">
+                    <div class="card">
+                        Interested in working with Dave? Check out the
+                        <a href="services.html">services page</a> for details
+                        about accompanying, teaching/coaching, and arranging.
+                    </div>
+                    <div class="card">
+                        Want to experience samples of Dave's work? Have a look
+                        at the <a href="gallery.html">media gallery</a> for
+                        recordings and photos.
+                    </div>
+                    <div class="card">
+                        See details of recent & upcoming events on the
+                        <a href="projects.html">projects page</a>.
+                    </div>
+                    <div class="card">
+                        Learn more about Dave's background by reading his
+                        <a href="bio.html">biography</a>.
+                    </div>
+                </section>
             </section>
             <article>
                 <h2>Artistic Approach</h2>

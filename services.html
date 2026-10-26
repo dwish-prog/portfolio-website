@@ -40,11 +40,11 @@
                 <ul>
                     <li><a href="index.html" class="page-link">Home</a></li>
                     <li><a href="tech.html" class="page-link">Portfolio</a></li>
-                    <li class="dropbtn page-link">
-                        Music <i class="fa fa-caret-down"></i>
-                    </li>
-                    <li class="dropdown">
-                        <ul>
+                    <li class="dropdown-container">
+                        <button class="dropbtn page-link">
+                            Music <i class="fa fa-caret-down"></i>
+                        </button>
+                        <ul class="dropdown">
                             <li>
                                 <a href="music.html " class="page-link"
                                     >About</a
@@ -72,8 +72,10 @@
                         <a href="contact.html" class="page-link">Contact</a>
                     </li>
                     <li>
-                        Language: EN /
-                        <button><a href="#" class="lang">DE</a></button>
+                        <p>
+                            Language: EN /
+                            <button><a href="#" class="lang">DE</a></button>
+                        </p>
                     </li>
                 </ul>
             </nav>
@@ -82,176 +84,185 @@
             <article>
                 <h1>Music Services</h1>
             </article>
-            <section class="gallery-intro"><h2>Piano & Coaching</h2></section>
-            <section class="card-gallery">
-                <div class="card">
-                    `
-                    <h3>Vocal Coaching & Piano Accompaniment</h3>
-                    <figure>
-                        <img
-                            src="assets/images/jason-rosewell-ASKeuOZqhYU-unsplash.webp"
-                            alt="a black & white photo of a boy singing into a microphone with his mouth wide open" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a
-                                href="https://unsplash.com/@jasonrosewell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Jason Rosewell</a
-                            >
-                            on
-                            <a
-                                href="https://unsplash.com/photos/boy-singing-on-microphone-with-pop-filter-ASKeuOZqhYU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Unsplash</a
-                            >
-                        </figcaption>
-                    </figure>
-                    <p>
-                        I offer one-to-one vocal coaching for singers at all
-                        levels — from emerging artists to seasoned
-                        professionals. My specialism lies in contemporary
-                        classical and experimental music, but I also love
-                        working on standard repertoire, audition material, and
-                        new roles.
-                    </p>
+            <section class="card-gallery-bg">
+                <h2>Piano & Coaching</h2>
+                <section class="card-gallery">
+                    <div class="card">
+                        `
+                        <h3>Vocal Coaching & Piano Accompaniment</h3>
+                        <figure>
+                            <img
+                                src="assets/images/jason-rosewell-ASKeuOZqhYU-unsplash.webp"
+                                alt="a black & white photo of a boy singing into a microphone with his mouth wide open" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a
+                                    href="https://unsplash.com/@jasonrosewell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Jason Rosewell</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/photos/boy-singing-on-microphone-with-pop-filter-ASKeuOZqhYU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Unsplash</a
+                                >
+                            </figcaption>
+                        </figure>
+                        <p>
+                            I offer one-to-one vocal coaching for singers at all
+                            levels — from emerging artists to seasoned
+                            professionals. My specialism lies in contemporary
+                            classical and experimental music, but I also love
+                            working on standard repertoire, audition material,
+                            and new roles.
+                        </p>
 
-                    <p>
-                        I also accompany singers and instrumentalists in
-                        concerts, events, auditions & recordings.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Piano Tuition</h3>
-                    <figure>
-                        <img
-                            src="assets/images/barnabas-piper-58VOzWsH8rA-unsplash.webp"
-                            alt="a child's hand playing some piano keys" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a
-                                href="https://unsplash.com/@barnabaspiper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Barnabas Piper</a
-                            >
-                            on
-                            <a
-                                href="https://unsplash.com/photos/a-childs-hand-rests-on-a-piano-keyboard-58VOzWsH8rA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Unsplash</a
-                            >
-                        </figcaption>
-                    </figure>
-                    <p>
-                        I have taught all ages and abilities, from parents
-                        looking to get their children started, to students and
-                        professionals preparing for performances and auditions.
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>Musicianship Tuition</h3>
-                    <figure>
-                        <img
-                            src="./assets/images/danielle-claude-belanger-ERfGVdG0C3M-unsplash.webp"
-                            alt="scattered pieces of a jigsaw puzzle with musical notation on them" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a
-                                href="https://unsplash.com/@dcbelanger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Danielle-Claude Bélanger</a
-                            >
-                            on
-                            <a
-                                href="https://unsplash.com/photos/music-notes-printed-on-puzzle-pieces-some-scattered-ERfGVdG0C3M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Unsplash</a
-                            >
-                        </figcaption>
-                    </figure>
-                    <p>
-                        Personalized training for musicians looking to improve
-                        their understanding of music theory, or to improve their
-                        practical musicianship or keyboard skills.
-                    </p>
-                </div>
+                        <p>
+                            I also accompany singers and instrumentalists in
+                            concerts, events, auditions & recordings.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Piano Tuition</h3>
+                        <figure>
+                            <img
+                                src="assets/images/barnabas-piper-58VOzWsH8rA-unsplash.webp"
+                                alt="a child's hand playing some piano keys" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a
+                                    href="https://unsplash.com/@barnabaspiper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Barnabas Piper</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/photos/a-childs-hand-rests-on-a-piano-keyboard-58VOzWsH8rA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Unsplash</a
+                                >
+                            </figcaption>
+                        </figure>
+                        <p>
+                            I have taught all ages and abilities, from parents
+                            looking to get their children started, to students
+                            and professionals preparing for performances and
+                            auditions.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Musicianship Tuition</h3>
+                        <figure>
+                            <img
+                                src="./assets/images/danielle-claude-belanger-ERfGVdG0C3M-unsplash.webp"
+                                alt="scattered pieces of a jigsaw puzzle with musical notation on them" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a
+                                    href="https://unsplash.com/@dcbelanger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Danielle-Claude Bélanger</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/photos/music-notes-printed-on-puzzle-pieces-some-scattered-ERfGVdG0C3M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Unsplash</a
+                                >
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Personalized training for musicians looking to
+                            improve their understanding of music theory, or to
+                            improve their practical musicianship or keyboard
+                            skills.
+                        </p>
+                    </div>
+                </section>
             </section>
-            <aside>
-                <h3>Testimonials</h3>
+            <div class="grid">
+                <aside>
+                    <h3>Testimonials</h3>
 
-                <blockquote>
-                    "I honestly doubted I'd ever get this contemporary opera
-                    role under my belt but with Dave's coaching, it clicked
-                    faster than I thought possible."
-                </blockquote>
-                <blockquote>
-                    "Supportive, empathetic and encouraging, receptive and
-                    respectful, artistically detailed and collaborative."
-                </blockquote>
-                <blockquote>
-                    "When I need to prepare a role or a project, he's my first
-                    call."
-                </blockquote>
-            </aside>
-            <article class="faq">
-                <h2>FAQs</h2>
+                    <blockquote>
+                        "I honestly doubted I'd ever get this contemporary opera
+                        role under my belt but with Dave's coaching, it clicked
+                        faster than I thought possible."
+                    </blockquote>
+                    <blockquote>
+                        "Supportive, empathetic and encouraging, receptive and
+                        respectful, artistically detailed and collaborative."
+                    </blockquote>
+                    <blockquote>
+                        "When I need to prepare a role or a project, he's my
+                        first call."
+                    </blockquote>
+                </aside>
+                <article class="faq">
+                    <h2>FAQs</h2>
 
-                <h4>What services do you offer?</h4>
-                <ul>
-                    <li>
-                        <strong>Coaching for professional singers</strong>: role
-                        prep, audition prep, accompanying recordings, English,
-                        German and Italian diction.
-                    </li>
-                    <li>
-                        <strong>Expertise in new music</strong>: But where's the
-                        key signature?! Instead of struggling through a tricky
-                        contemporary score alone, Discover it with Dave.
-                    </li>
-                    <li>
-                        <strong>Support for beginners</strong>: You don't feel
-                        confident in your weekly choir rehearsal? You've always
-                        dreamt of being able to stand up to sing to friends and
-                        family? Explore using your voice confidently in a
-                        friendly and supportive environment.
-                    </li>
-                    <li>
-                        <strong>Musicianship and theory</strong>: Did these
-                        vital skills for musicians never really click? I can
-                        help you develop the mental and practical skills you
-                        need to understand and analyze the music you're working
-                        on.
-                    </li>
-                </ul>
-                <h4>Where are you located?</h4>
+                    <h4>What services do you offer?</h4>
+                    <ul>
+                        <li>
+                            <strong>Coaching for professional singers</strong>:
+                            role prep, audition prep, accompanying recordings,
+                            English, German and Italian diction.
+                        </li>
+                        <li>
+                            <strong>Expertise in new music</strong>: But where's
+                            the key signature?! Instead of struggling through a
+                            tricky contemporary score alone, Discover it with
+                            Dave.
+                        </li>
+                        <li>
+                            <strong>Support for beginners</strong>: You don't
+                            feel confident in your weekly choir rehearsal?
+                            You've always dreamt of being able to stand up to
+                            sing to friends and family? Explore using your voice
+                            confidently in a friendly and supportive
+                            environment.
+                        </li>
+                        <li>
+                            <strong>Musicianship and theory</strong>: Did these
+                            vital skills for musicians never really click? I can
+                            help you develop the mental and practical skills you
+                            need to understand and analyze the music you're
+                            working on.
+                        </li>
+                    </ul>
+                    <h4>Where are you located?</h4>
 
-                <p>
-                    I'm based in Berlin and coach in various locations in the
-                    city. I can also offer online sessions depending on the
-                    nature of the work you want to do.
-                </p>
+                    <p>
+                        I'm based in Berlin and coach in various locations in
+                        the city. I can also offer online sessions depending on
+                        the nature of the work you want to do.
+                    </p>
 
-                <h4>Will you record a practice/backing track?</h4>
+                    <h4>Will you record a practice/backing track?</h4>
 
-                <p>
-                    Yes of course! If you need a pianist but don't like being in
-                    the same room as them I can also send you recordings of the
-                    music you're working on.
-                </p>
+                    <p>
+                        Yes of course! If you need a pianist but don't like
+                        being in the same room as them I can also send you
+                        recordings of the music you're working on.
+                    </p>
 
-                <h4>Will you play for my [audition/concert/wedding/...]?</h4>
+                    <h4>
+                        Will you play for my [audition/concert/wedding/...]?
+                    </h4>
 
-                <p>
-                    Having a pianist you can trust is always worthwhile. I'm
-                    happy to play for your events depending on availability.
-                    Travel outside of Berlin is also possible.
-                </p>
+                    <p>
+                        Having a pianist you can trust is always worthwhile. I'm
+                        happy to play for your events depending on availability.
+                        Travel outside of Berlin is also possible.
+                    </p>
 
-                <h4>How much does all this cost?</h4>
+                    <h4>How much does all this cost?</h4>
 
-                <p>
-                    My going rate is €50 per hour, although this can be more for
-                    demanding work (for example concerts or recordings). I can
-                    also offer a discount if you want to work more regularly.
-                    Feel free to get in touch if you have more specific
-                    questions about pricing.
-                </p>
-            </article>
-
-            <section class="gallery-intro">
+                    <p>
+                        My going rate is €50 per hour, although this can be more
+                        for demanding work (for example concerts or recordings).
+                        I can also offer a discount if you want to work more
+                        regularly. Feel free to get in touch if you have more
+                        specific questions about pricing.
+                    </p>
+                </article>
+            </div>
+            <section class="card-gallery-bg">
                 <h2>Sheet Music Services</h2>
 
                 <p>
@@ -266,125 +277,129 @@
                     Pricing varies depending on the extent and complexity of the
                     work. Please get in touch for more information.
                 </p>
-            </section>
-            <section class="card-gallery">
-                <div class="card">
-                    <h3>Arranging & Orchestration</h3>
-                    <figure>
-                        <img
-                            src="assets/images/samuel-sianipar-4TNd3hsW3PM-unsplash.webp"
-                            alt="a photo looking down from behind on the violin section of an orchestra performing" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a
-                                href="https://unsplash.com/@samthewam24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Samuel Sianipar</a
-                            >
-                            on
-                            <a
-                                href="https://unsplash.com/photos/group-of-person-playing-violin-4TNd3hsW3PM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Unsplash</a
-                            >
-                        </figcaption>
-                    </figure>
-                    <p>
-                        Custom arrangements for soloists or ensembles, adapting
-                        existing works to suit your forces or context.
-                    </p>
-                    <ul>
-                        <li>Piano reductions of orchestral scores</li>
-                        <li>Chamber versions or reorchestrations</li>
-                        <li>
-                            Creative rearrangements of songs or arias for new
-                            settings
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>Transcription</h3>
-                    <figure>
-                        <img
-                            src="assets/images/europeana-cel0NcVbOFw-unsplash.webp"
-                            alt="a messy handwritten musical score ready to be transcribed by Dave" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a href="https://unsplash.com/@europeana"
-                                >Europeana</a
-                            >
-                            on
-                            <a
-                                href="https://unsplash.com/photos/handwritten-musical-score-with-many-notes-cel0NcVbOFw"
-                                >Unsplash</a
-                            >
-                        </figcaption>
-                    </figure>
-                    <p>
-                        Accurate transcriptions from recordings, handwritten
-                        manuscripts, or difficult-to-read scores.
-                    </p>
-                    <ul>
-                        <li>
-                            Faithful reproduction and modernization of older
-                            editions
-                        </li>
-                        <li>
-                            Transposition and key changes to suit performers
-                        </li>
-                        <li>
-                            Cleanup and restoration of archival or rehearsal
-                            materials
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>Editing</h3>
-                    <figure>
-                        <img
-                            src="assets/images/mike-castro-demaria-AQIB4qsI8wI-unsplash.webp"
-                            alt="a closeup image of some neatly printed musical notes" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a
-                                href="https://unsplash.com/@mike_castro_demaria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Mike Castro Demaria</a
-                            >
-                            on
-                            <a
-                                href="https://unsplash.com/photos/black-and-white-electric-guitar-AQIB4qsI8wI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-                                >Unsplash</a
-                            >
-                        </figcaption>
-                    </figure>
-                    <p>
-                        Professional engraving in Sibelius and Musescore,
-                        producing clear and performer-friendly scores and parts.
-                    </p>
-                    <ul>
-                        <li>Layout, formatting, and proofreading</li>
-                        <li>Stylistically consistent notation</li>
-                        <li>Parts preparation and rehearsal markings</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>Composing</h3>
-                    <figure>
-                        <img
-                            src="assets/images/dave-composing.webp"
-                            alt="a photo of Dave sitting at a piano composing" />
-                        <figcaption class="attribution">
-                            Photo by
-                            <a href="https://imurchan.co.uk/about">Ingrid Mur</a
-                            >.
-                        </figcaption>
-                    </figure>
-                    <p>
-                        While most of my work involves arranging and
-                        transcription, I also write original music on request.
-                        Whether you need a short piece, an arrangement with new
-                        material, or incidental music for performance, I'm happy
-                        to discuss ideas.
-                    </p>
-                </div>
+
+                <section class="card-gallery">
+                    <div class="card">
+                        <h3>Arranging & Orchestration</h3>
+                        <figure>
+                            <img
+                                src="assets/images/samuel-sianipar-4TNd3hsW3PM-unsplash.webp"
+                                alt="a photo looking down from behind on the violin section of an orchestra performing" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a
+                                    href="https://unsplash.com/@samthewam24?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Samuel Sianipar</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/photos/group-of-person-playing-violin-4TNd3hsW3PM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Unsplash</a
+                                >
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Custom arrangements for soloists or ensembles,
+                            adapting existing works to suit your forces or
+                            context.
+                        </p>
+                        <ul>
+                            <li>Piano reductions of orchestral scores</li>
+                            <li>Chamber versions or reorchestrations</li>
+                            <li>
+                                Creative rearrangements of songs or arias for
+                                new settings
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Transcription</h3>
+                        <figure>
+                            <img
+                                src="assets/images/europeana-cel0NcVbOFw-unsplash.webp"
+                                alt="a messy handwritten musical score ready to be transcribed by Dave" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a href="https://unsplash.com/@europeana"
+                                    >Europeana</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/photos/handwritten-musical-score-with-many-notes-cel0NcVbOFw"
+                                    >Unsplash</a
+                                >
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Accurate transcriptions from recordings, handwritten
+                            manuscripts, or difficult-to-read scores.
+                        </p>
+                        <ul>
+                            <li>
+                                Faithful reproduction and modernization of older
+                                editions
+                            </li>
+                            <li>
+                                Transposition and key changes to suit performers
+                            </li>
+                            <li>
+                                Cleanup and restoration of archival or rehearsal
+                                materials
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Editing</h3>
+                        <figure>
+                            <img
+                                src="assets/images/mike-castro-demaria-AQIB4qsI8wI-unsplash.webp"
+                                alt="a closeup image of some neatly printed musical notes" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a
+                                    href="https://unsplash.com/@mike_castro_demaria?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Mike Castro Demaria</a
+                                >
+                                on
+                                <a
+                                    href="https://unsplash.com/photos/black-and-white-electric-guitar-AQIB4qsI8wI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                    >Unsplash</a
+                                >
+                            </figcaption>
+                        </figure>
+                        <p>
+                            Professional engraving in Sibelius and Musescore,
+                            producing clear and performer-friendly scores and
+                            parts.
+                        </p>
+                        <ul>
+                            <li>Layout, formatting, and proofreading</li>
+                            <li>Stylistically consistent notation</li>
+                            <li>Parts preparation and rehearsal markings</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Composing</h3>
+                        <figure>
+                            <img
+                                src="assets/images/dave-composing.webp"
+                                alt="a photo of Dave sitting at a piano composing" />
+                            <figcaption class="attribution">
+                                Photo by
+                                <a href="https://imurchan.co.uk/about"
+                                    >Ingrid Mur</a
+                                >.
+                            </figcaption>
+                        </figure>
+                        <p>
+                            While most of my work involves arranging and
+                            transcription, I also write original music on
+                            request. Whether you need a short piece, an
+                            arrangement with new material, or incidental music
+                            for performance, I'm happy to discuss ideas.
+                        </p>
+                    </div>
+                </section>
             </section>
         </main>
         <footer>

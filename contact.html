@@ -40,11 +40,11 @@
                 <ul>
                     <li><a href="index.html" class="page-link">Home</a></li>
                     <li><a href="tech.html" class="page-link">Portfolio</a></li>
-                    <li class="dropbtn page-link">
-                        Music <i class="fa fa-caret-down"></i>
-                    </li>
-                    <li class="dropdown">
-                        <ul>
+                    <li class="dropdown-container">
+                        <button class="dropbtn page-link">
+                            Music <i class="fa fa-caret-down"></i>
+                        </button>
+                        <ul class="dropdown">
                             <li>
                                 <a href="music.html " class="page-link"
                                     >About</a
@@ -74,8 +74,10 @@
                     </li>
                     <li class="active">Contact</li>
                     <li>
-                        Language: EN /
-                        <button><a href="#" class="lang">DE</a></button>
+                        <p>
+                            Language: EN /
+                            <button><a href="#" class="lang">DE</a></button>
+                        </p>
                     </li>
                 </ul>
             </nav>
@@ -85,44 +87,56 @@
                 <h1>Contact</h1>
                 <p>Get in touch for collaborations.</p>
             </article>
-            <section class="card-gallery">
-                <form action="./submit_page" method="get" class="card">
-                    <p>
-                        <label for="name">Name (required): </label
-                        ><input type="text" name="name" id="name" required />
-                    </p>
-                    <p>
-                        <label for="subject">Subject: </label
-                        ><select name="subject" id="subject" required>
-                            <option value="">
-                                --Please choose an option--
-                            </option>
-                            <option value="data">Data Analysis</option>
-                            <option value="dev">Software Development</option>
-                            <option value="coaching">Coaching</option>
-                            <option value="piano">Piano Accompaniment</option>
-                            <option value="teaching">
-                                Piano or Musicianship Lessons
-                            </option>
-                            <option value="sheet music">
-                                Arranging & Transcription
-                            </option>
-                            <option value="composing">Composing</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label for="email">Email (required): </label
-                        ><input type="email" name="email" id="email" required />
-                    </p>
-                    <p>
-                        <label for="message">Your message: </label>
-                        <textarea id="message" name="message"></textarea>
-                    </p>
-                    <p>
-                        <button>Submit</button>
-                    </p>
-                </form>
+            <section class="card-gallery-bg">
+                <section class="card-gallery">
+                    <form action="./submit_page" method="get" class="card">
+                        <p>
+                            <label for="name">Name (required): </label
+                            ><input
+                                type="text"
+                                name="name"
+                                id="name"
+                                required />
+                        </p>
+                        <p>
+                            <label for="subject">Subject: </label
+                            ><select name="subject" id="subject" required>
+                                <option value="">--Choose an option--</option>
+                                <option value="data">Data Analysis</option>
+                                <option value="dev">
+                                    Software Development
+                                </option>
+                                <option value="coaching">Coaching</option>
+                                <option value="piano">
+                                    Piano Accompaniment
+                                </option>
+                                <option value="teaching">
+                                    Piano or Musicianship Lessons
+                                </option>
+                                <option value="sheet music">
+                                    Arranging & Transcription
+                                </option>
+                                <option value="composing">Composing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="email">Email (required): </label
+                            ><input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required />
+                        </p>
+                        <p>
+                            <label for="message">Your message: </label>
+                            <textarea id="message" name="message"></textarea>
+                        </p>
+                        <p>
+                            <button>Submit</button>
+                        </p>
+                    </form>
+                </section>
             </section>
         </main>
         <footer>

@@ -126,7 +126,7 @@ nav h2 {
     padding: 2rem;
 }
 
-nav button {
+.hamburger {
     height: 100%;
     color: #002642;
     font-size: 250%;
@@ -181,9 +181,16 @@ nav a {
     text-decoration: underline;
 }
 
-nav ul button {
+.dropbtn {
     font-size: 100%;
+    width: 100%;
     padding: 0.75rem 0;
+    color: #002642;
+}
+
+nav > ul > li:last-child {
+    padding: 1rem;
+    white-space: nowrap;
 }
 /* Cards */
 
@@ -212,6 +219,10 @@ nav ul button {
 }
 .card img {
     border-radius: 1rem;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
 }
 
 .card p {
@@ -224,16 +235,29 @@ nav ul button {
     text-align: left;
     padding-top: 1rem;
 }
+
+form button {
+    background-color: #eee7e7;
+    border-radius: 0.5rem;
+    border: 0.02rem solid #000719;
+    padding: 0.5rem;
+}
+
+form button:hover {
+    background-color: #e59500;
+}
+
 /* Article */
+
 article {
-    padding: 2rem 4rem;
+    max-width: 65ch;
+    margin-inline: auto;
+    padding: 2rem 1.5rem;
 }
 
 article h1 {
     text-align: end;
     padding-bottom: 1rem;
-    position: relative;
-    right: -2rem;
 }
 
 article h2,
@@ -253,16 +277,20 @@ figure {
     margin: 1rem;
 }
 
-.gallery-intro {
+.card-gallery-bg {
     background-color: #e5dada;
     text-align: center;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 .article-sect-alt {
     background-color: #e5dada;
+    width: 100%;
 }
 
+.article-sect-alt h2 {
+    text-align: end;
+}
 ol {
     padding-left: 1rem;
 }
@@ -278,6 +306,26 @@ ol ol {
 ol ul {
     list-style: disc;
     padding-bottom: 1rem;
+}
+
+.bio-article {
+    padding: 0;
+}
+
+.bio-article figure {
+    margin: 0;
+}
+
+.bio-article h2,
+.bio-article p {
+    padding: 1rem;
+}
+
+form p,
+form input,
+form select,
+form textarea {
+    width: 100%;
 }
 
 /* Aside */
@@ -321,11 +369,114 @@ footer {
 
 footer ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2.5rem;
     list-style: none;
     padding: 2rem;
 }
 
 footer li {
     color: #02040f;
+}
+
+@media screen and (width > 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav-mobile {
+        box-shadow: none;
+        border-bottom: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f7f3f3;
+        box-shadow: 0 0.5rem 0.5rem grey;
+        padding: 0 2rem;
+        min-height: 4.5rem;
+    }
+
+    nav h2 {
+        padding: 0;
+    }
+
+    nav > ul {
+        display: flex !important;
+        flex-direction: row;
+        box-shadow: none;
+    }
+
+    nav li {
+        width: auto;
+    }
+
+    nav .active,
+    nav .dropbtn,
+    nav > ul > li > a,
+    nav > ul > li > p {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 1.5rem;
+        white-space: nowrap;
+    }
+
+    nav a.lang {
+        display: inline;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: underline;
+    }
+
+    nav > ul > li:last-child {
+        padding: 0 1.5rem;
+        white-space: nowrap;
+    }
+
+    .dropdown-container {
+        position: relative;
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 10rem;
+        list-style: none;
+        border: none;
+        box-shadow: 0 0.5rem 0.5rem grey;
+        z-index: 10;
+    }
+
+    .dropdown li {
+        width: 100%;
+    }
+
+    .hero {
+        background: #000719 url('../assets/images/dw-headshot.webp') center /
+            contain no-repeat;
+    }
+
+    .card-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        max-width: 65rem;
+        margin-inline: auto;
+    }
+
+    .cols {
+        max-width: 130ch;
+    }
+
+    .cols h1 {
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
