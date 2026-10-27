@@ -178,6 +178,7 @@ nav a {
 .lang {
     display: inline;
     padding: 0;
+    margin-left: 0.25rem;
     text-decoration: underline;
 }
 
@@ -256,7 +257,7 @@ article {
 }
 
 article h1 {
-    text-align: end;
+    text-align: center;
     padding-bottom: 1rem;
 }
 
@@ -334,7 +335,7 @@ aside {
     background-color: #e59500;
     padding: 2rem;
     margin: 1rem;
-    border-radius: 5rem;
+    border-radius: 1.5rem;
     text-align: center;
     box-shadow: 0.5rem 0.5rem 0.5rem grey;
 }
@@ -412,7 +413,7 @@ footer li {
         width: auto;
     }
 
-    nav .active,
+    nav > ul > li.active,
     nav .dropbtn,
     nav > ul > li > a,
     nav > ul > li > p {
@@ -451,8 +452,21 @@ footer li {
         z-index: 10;
     }
 
-    .dropdown li {
+    .dropdown li,
+    .dropdown li a,
+    .dropdown li.active {
         width: 100%;
+        display: flex;
+        align-items: center;
+        height: 2.75rem;
+        padding: 0;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .dropdown li a,
+    .dropdown li.active {
+        padding-left: 1rem;
     }
 
     .hero {
@@ -478,5 +492,6 @@ footer li {
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
 }
